@@ -7,6 +7,59 @@
         html {
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         }
+
+                html {
+            background-color: greenyellow;
+        }
+
+        #title h1 {
+            text-align: center;
+        }
+
+        #james-intro {
+            margin: 10px;
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+
+        #james-intro div {
+            justify-content: left;
+            margin: auto;
+        }
+
+        #james-intro-body {
+            background-color: aqua;
+            padding: 20px;
+            border: 20px;
+            border-style: outset;
+            border-color: yellow;
+        }
+
+        #jj-intro {
+            margin: 10px;
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+
+        #jj-intro div {
+            justify-content: left;
+            margin: auto;
+        }
+
+        #jj-intro-body {
+            background-color: purple;
+            padding: 20px;
+            border: 20px;
+            border-style: outset;
+            border-color: pink;
+        }
+
     </style>
     <body>
         <div id="title">
@@ -16,10 +69,11 @@
             <div>
             </div>
             
-            <div id="james-intro-body">
+            <div id="james-intro-body" style="background-color: aqua">
                 <h3>James Bakis introduction</h3>
                 <p>Hello, my name is James.</p>
-                <p>I'm 25 years old and I attend RMIT University in Melbourne, Australia</p>    
+                <p>I'm 25 years old and I attend RMIT University in Melbourne, Australia</p>   
+                <button onclick="james_change_colour()" style="display: block; margin: auto">Change colour</button> 
             </div>
 
             <div>      
@@ -31,10 +85,11 @@
             <div>
             </div>
             
-            <div id="jj-intro-body">
+            <div id="jj-intro-body" style="background-color: purple">
                 <h3>Jeevika Jayaprakash introduction</h3>
                 <p>Hello, my name is Jeevikaa Jayaprakash.</p>
-                <p>I'm 19 years old and I attend RMIT University in Melbourne, Australia</p>    
+                <p>I'm 19 years old and I attend RMIT University in Melbourne, Australia</p>  
+                <button onclick="jj_change_colour()" style="display: block; margin: auto">Change colour</button>  
             </div>
 
             <div>      
@@ -61,4 +116,6 @@
     <footer>
 
     </footer>
+    <script src="./script.js"> </script>
+    
 </html>

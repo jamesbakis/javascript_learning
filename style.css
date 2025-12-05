@@ -21,7 +21,6 @@ html {
 }
 
 #james-intro-body {
-    background-color: aqua;
     padding: 20px;
     border: 20px;
     border-style: outset;
@@ -43,7 +42,6 @@ html {
 }
 
 #jj-intro-body {
-    background-color: purple;
     padding: 20px;
     border: 20px;
     border-style: outset;
